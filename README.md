@@ -8,7 +8,7 @@
 
 Test how effective the prototye is in performing certain types of tasks.
 
-## FE
+## F/E
 1. Have an interface that shows the thumbnail of a list of assets in the directory
 2. Have a search input box
 3. Can perform search and return results
