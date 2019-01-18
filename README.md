@@ -1,9 +1,10 @@
 ## Text in an asset search portal quick prototype
 
 ## B/E
-1. Create a DB with assets urls and their cognitive metadata fields, plus other fields such as date created, file size, file type, etc. as metadata. 
-2. Run a script that grabs the directory of assets, run them against the cognitive data service, grab text info and parse JSON text info into a searchable format.
-3. Perform a search in the DB and return the assets that suppose to show up.
+1. Create a DB with image urls and cognitive text metadata fields, plus other metadata fields such as date created, file size, file type, etc.
+2. Run a script that grabs the urls of assets, run them against the cognitive data service, parse json info cognitive text metadata
+3. Update the database cognitive_text field with the metadata generated
+3. Perform a search in the DB and test if the right assets show up
 
 Test how effective the prototye is in performing certain types of tasks.
 
