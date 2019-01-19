@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.region,
+.line,
+.word {
+  display: block;
+  position: absolute;
+}
+
+.line:hover {
+  z-index: 1000;
+}
+
+.region {
+  border: 5px red solid;
+}
+
+.line {
+  border: 3px blue solid;
+}
+
+.word {
+  border: 1px yellow solid;
+}
+
+body {
+   background: url('https://jingxie16.files.wordpress.com/2015/08/2014_kcon_pod_mechanical_071014.jpg') no-repeat;
+   width: 2629px;
+   height: 3323px;
+}
